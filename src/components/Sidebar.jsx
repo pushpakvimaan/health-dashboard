@@ -1,42 +1,4 @@
 
-// import { FiSettings } from 'react-icons/fi';
-// import { navItems } from '../data/navigation';
-// import '../styles/Sidebar.css';
-
-// function Sidebar() {
-//   return (
-//     <nav className="sidebar">
-//       <div className="sidebar-content">
-//         <div className="sidebar-section">
-//           <h3 className="sidebar-heading">General</h3>
-//           <ul className="nav-list">
-//             {navItems.map((item, index) => (
-//               <li key={index} className="nav-item">
-//                 <a href="#" className="nav-link">
-//                   {item}
-//                 </a>
-//               </li>
-//             ))}
-//           </ul>
-//         </div>
-//       </div>
-      
-//       {/* Settings button at the bottom */}
-//       <div className="sidebar-footer">
-//         <button className="settings-button">
-//           <FiSettings className="settings-icon" />
-//           <span>Settings</span>
-//         </button>
-//       </div>
-//     </nav>
-//   );
-// }
-
-// export default Sidebar;
-
-
-
-// src/components/Sidebar.js
 import { 
   FiHome, 
   FiClock, 
