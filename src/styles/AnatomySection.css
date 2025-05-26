@@ -1,0 +1,28 @@
+.anatomy-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.human-figure {
+  width: 80%;
+  height: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.human-figure img{
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .anatomy-section {
+    flex-direction: column;
+  }
+}

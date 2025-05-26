@@ -1,0 +1,116 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 1rem;
+}
+
+.header-left {
+  flex-shrink: 0;
+}
+
+.app-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  white-space: nowrap;
+}
+
+.header-center {
+  flex: 0.5;
+  min-width: 0; /* Allows the flex item to shrink below its content's minimum size */
+  justify-content: flex-start;
+  margin-right: auto;
+  margin-left: 200px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+ 
+    justify-content: flex-start;
+ 
+}
+
+
+.search-bar input {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  outline: none;
+  min-width: 0; /* Allows the input to shrink */
+}
+
+.notification-icon {
+    margin-top: 0.7rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  flex-shrink: 0;
+  text-align: center;
+  color: rgb(42, 18, 138);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-shrink: 0;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius:10px ;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-btn{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(47, 106, 161);
+    border-radius: 8px;
+}
+.add-button {
+    border: none;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: white;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .header-center {
+    width: 100%;
+  }
+  
+  .header-right {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+  }
+}

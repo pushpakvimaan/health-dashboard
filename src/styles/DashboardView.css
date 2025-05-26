@@ -1,0 +1,23 @@
+.overview-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboard-arr {
+width:100%;
+
+}
+.overview-content{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.anatomy-section{
+    flex: 1;
+    width:60%;
+    height: 80%;
+}
+.health-card-section{
+    width: 50%;
+}

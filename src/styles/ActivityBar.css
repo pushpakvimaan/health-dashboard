@@ -1,0 +1,58 @@
+.activity-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.activity-title {
+  color: #333;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.appointments-count {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.graph-bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 150px;
+  padding-top: 20px;
+}
+
+.bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30px;
+  position: relative;
+}
+
+.bar {
+  width: 20px;
+  background-color: #4e73df;
+  border-radius: 5px 5px 0 0;
+  transition: height 0.3s ease;
+}
+
+.day-label {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.appointment-count {
+  position: absolute;
+  top: -20px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #4e73df;
+}

@@ -1,0 +1,27 @@
+/* Reset some default styles */
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Prevent double scrolling */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+}
+
+.app-main {
+  display: flex;
+  flex: 1;
+  min-height: 0; /* Crucial for proper flexbox scrolling */
+}

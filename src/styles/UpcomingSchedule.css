@@ -1,0 +1,63 @@
+.upcoming-schedule {
+  width: 100%;
+
+}
+
+.upcoming-schedule h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+
+
+.schedule-day h4 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.appointment-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-card h4 {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.appointment-card p {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* .schedule-day {
+  display: flex;
+  flex-direction: row;      
+  gap: 16px;               
+  flex-wrap: wrap;          
+  align-items: flex-start;  
+  margin-bottom: 1.5rem;
+    
+} */
+
+.schedule-day {
+  margin-bottom: 20px;
+}
+
+.day-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.appointment-cards {
+  /* display: flex;
+  flex-direction: column; */
+  gap: 30px;
+  height: 120px;
+}
